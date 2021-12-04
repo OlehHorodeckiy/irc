@@ -1,0 +1,31 @@
+@import "reset.scss";
+@import "header.scss";
+@import "fonts.scss";
+@import "about.scss";
+@import "help_content.scss";
+html{
+  box-sizing: border-box;
+}
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Gotham Pro" ,sans-serif;
+  min-width: 320px;
+  overflow-x: hidden;
+  background-color: #f4f7fa;
+}
+//
+@media (min-width:600px) {
+
+
+}
+@media (min-width:801px) {
+
+}
+@media (min-width:1025px) { }
+@media (min-width:1281px) {
+
+}
+

@@ -1,0 +1,139 @@
+.container{
+  padding:0 20px;
+}
+@media (min-width:600px) {
+
+}
+@media (min-width:1025px) {
+    .container {
+      padding: 0 80px;
+
+    }
+  }
+//Header
+.header{
+  margin-top: 22px;
+  .header-top{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.header__logo{
+  margin-top: 10px;
+}
+.header__link-logo{
+  width: 90px;
+  height: 30px;
+}
+.header-text{
+  display: none;
+}
+.header__button{
+  display: none;
+}
+.header__right{
+  display: flex;
+}
+.header__number{
+  display: none;
+}
+.header__phone{
+  margin-right: 9px;
+}
+.header-nav{
+  display: none;
+}
+@media (min-width:600px) {
+
+  .header__phone{
+    display: none;
+  }
+  .header__burger{
+    display: none;
+  }
+  .header-top{
+    .header-left{
+      display: flex;
+      .header__logo {
+        margin-top: 9px;
+      }
+      .header-text{
+        display: block;
+        margin-top: 3px;
+        font-size: 12px;
+        line-height: 20px;
+        white-space: pre-line;
+        color: #303030;
+        margin-left: 62px;
+
+      }
+    }
+    .header__right {
+      display: flex;
+      align-items: center;
+      .header__number{
+        display: block;
+        margin-top: 10px;
+        margin-right: 36px;
+        .header__number-link{
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 18px;
+          text-align: right;
+          color: #303030;
+          text-decoration: none;
+        }
+      }
+      .header__button {
+        display: block;
+        margin-top: 9px;
+        .header__button-body{
+          border: none;
+          width: 115px;
+          height: 50px;
+          background: #273895;
+          border-radius: 15px;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 18px;
+          text-align: center;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+@media (min-width:801px) {
+  .header__link-logo{
+    width: 199px;
+    height: 63px;
+  }}
+
+//Header-Navigation
+@media (min-width:801px) {
+  .header-nav{
+    display: block;
+    margin-top: 44px;
+    .nav__list {
+      list-style: none;
+      display: flex;
+      align-items: center;
+
+    .nav__list-item{
+      margin-right: 47px;
+      .nav__link{
+        font-size: 16px;
+        line-height: 15px;
+        letter-spacing: 0.03em;
+        color: #000000;
+        text-decoration:none;
+        font-weight: 700;
+
+      }
+    }}
+
+
+
+}}
+
+
